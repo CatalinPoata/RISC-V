@@ -1,0 +1,444 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 21456
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Jan 04 19:59:05 GMT+02:00 2023
+Time zone: 	GMT+02:00 (GMT+02:00)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	F:/Vivado/2022.1/tps/win64/jre11.0.11_9
+Java executable: 	F:/Vivado/2022.1/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	febr2
+User home directory: C:/Users/febr2
+User working directory: G:/Uni stuff/Uni/Anul 3/CN2/lab3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: F:/Vivado
+HDI_APPROOT: F:/Vivado/2022.1
+RDI_DATADIR: F:/Vivado/2022.1/data
+RDI_BINDIR: F:/Vivado/2022.1/bin
+
+Vivado preferences file: C:/Users/febr2/AppData/Roaming/Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: C:/Users/febr2/AppData/Roaming/Xilinx/Vivado/2022.1/
+Vivado layouts directory: C:/Users/febr2/AppData/Roaming/Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	F:/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	G:/Uni stuff/Uni/Anul 3/CN2/lab3/vivado.log
+Vivado journal file: 	G:/Uni stuff/Uni/Anul 3/CN2/lab3/vivado.jou
+Engine tmp dir: 	G:/Uni stuff/Uni/Anul 3/CN2/lab3/.Xil/Vivado-21456-DESKTOP-3QSB0TA
+
+Xilinx Environment Variables
+----------------------------
+XILINX: F:/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: F:/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: F:/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: F:/Vivado/2022.1
+XILINX_VIVADO: F:/Vivado/2022.1
+XILINX_VIVADO_HLS: F:/Vivado/2022.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,456 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 80 MB (+81632kb) [00:00:38]
+// [Engine Memory]: 1,326 MB (+1238825kb) [00:00:38]
+// Opening Vivado Project: G:\Uni stuff\Uni\Anul 3\CN2\lab3\RISC_V_IF_ID.xpr. Version: Vivado v2022.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_IF_ID.xpr} 
+// TclEventType: FLOW_ADDED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,462 MB. GUI used memory: 58 MB. Current time: 1/4/23, 7:59:06 PM GMT+02:00
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_IF_ID.xpr} 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_IF_ID.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 99 MB (+15690kb) [00:00:52]
+// [Engine Memory]: 1,549 MB (+164237kb) [00:00:52]
+// WARNING: HEventQueue.dispatchEvent() is taking  4710 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Vivado/2022.1/data/ip'. 
+// [GUI Memory]: 109 MB (+4592kb) [00:00:56]
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1721.500 ; gain = 238.113 
+// Project name: RISC_V_IF_ID; location: G:/Uni stuff/Uni/Anul 3/CN2/lab3; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bA
+// WARNING: HEventQueue.dispatchEvent() is taking  1327 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,606 MB. GUI used memory: 62 MB. Current time: 1/4/23, 7:59:31 PM GMT+02:00
+// PAPropertyPanels.initPanels (ALUcontrol.v) elapsed time: 0.2s
+// Elapsed time: 44 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALUcontrol (ALUcontrol.v)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALUcontrol (ALUcontrol.v)]", 3, false, false, false, false, false, true); // D - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v)]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v)]", 2); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_decode : ID (ID.v)]", 8); // D
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v), MUX_PC : mux2_1 (mux2_1.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v), MUX_PC : mux2_1 (mux2_1.v)]", 6, false, false, false, false, false, true); // D - Double Click
+// [GUI Memory]: 117 MB (+3372kb) [00:02:25]
+// Elapsed time: 297 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // D
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+// Elapsed time: 13 seconds
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "forwarding"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 22 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_IF_ID.srcs/sources_1/new/forwarding.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_IF_ID.srcs/sources_1/new/forwarding.v}} 
+dismissDialog("Add Sources"); // bA
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, forwarding (forwarding.v)]", 16, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, forwarding (forwarding.v)]", 16, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("forwarding.v", 29, 421); // be
+// [GUI Memory]: 124 MB (+1411kb) [00:11:13]
+// Elapsed time: 319 seconds
+selectCodeEditor("forwarding.v", 294, 447); // be
+// Elapsed time: 72 seconds
+selectCodeEditor("forwarding.v", 496, 390); // be
+selectCodeEditor("forwarding.v", 491, 430); // be
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALUcontrol (ALUcontrol.v)]", 13, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALUcontrol (ALUcontrol.v)]", 13, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX (EX.v)]", 14, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX (EX.v)]", 14, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALUcontrol (ALUcontrol.v)]", 13, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALUcontrol (ALUcontrol.v)]", 13, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, forwarding (forwarding.v)]", 16, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, forwarding (forwarding.v)]", 16, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("forwarding.v", 101, 400); // be
+selectCodeEditor("forwarding.v", 104, 400, false, false, false, false, true); // be - Double Click
+selectCodeEditor("forwarding.v", 26, 437); // be
+selectCodeEditor("forwarding.v", 57, 449); // be
+selectCodeEditor("forwarding.v", 199, 447); // be
+// Elapsed time: 22 seconds
+selectCodeEditor("forwarding.v", 91, 467); // be
+selectCodeEditor("forwarding.v", 83, 396); // be
+selectCodeEditor("forwarding.v", 92, 397); // be
+// Elapsed time: 131 seconds
+selectCodeEditor("forwarding.v", 170, 383); // be
+// Elapsed time: 20 seconds
+selectCodeEditor("forwarding.v", 56, 406); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 32 seconds
+selectCodeEditor("forwarding.v", 122, 408); // be
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("forwarding.v", 236, 425); // be
+selectCodeEditor("forwarding.v", 240, 405); // be
+selectCodeEditor("forwarding.v", 241, 419); // be
+// Elapsed time: 103 seconds
+selectCodeEditor("forwarding.v", 296, 431); // be
+selectCodeEditor("forwarding.v", 180, 431); // be
+selectCodeEditor("forwarding.v", 293, 432); // be
+// Elapsed time: 40 seconds
+selectCodeEditor("forwarding.v", 164, 436); // be
+selectCodeEditor("forwarding.v", 170, 428); // be
+selectCodeEditor("forwarding.v", 300, 431); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("forwarding.v", 302, 428); // be
+// Elapsed time: 25 seconds
+selectCodeEditor("forwarding.v", 228, 453); // be
+// Elapsed time: 23 seconds
+selectCodeEditor("forwarding.v", 211, 454); // be
+// Elapsed time: 25 seconds
+selectCodeEditor("forwarding.v", 23, 418); // be
+selectCodeEditor("forwarding.v", 54, 421); // be
+selectCodeEditor("forwarding.v", 18, 421); // be
+selectCodeEditor("forwarding.v", 188, 415); // be
+typeControlKey((HResource) null, "forwarding.v", 'c'); // be
+selectCodeEditor("forwarding.v", 233, 445); // be
+typeControlKey((HResource) null, "forwarding.v", 'v'); // be
+selectCodeEditor("forwarding.v", 261, 446); // be
+// Elapsed time: 17 seconds
+selectCodeEditor("forwarding.v", 274, 456); // be
+selectCodeEditor("forwarding.v", 275, 451); // be
+// Elapsed time: 38 seconds
+selectCodeEditor("forwarding.v", 175, 396); // be
+// Elapsed time: 22 seconds
+selectCodeEditor("forwarding.v", 213, 404); // be
+// Elapsed time: 54 seconds
+selectCodeEditor("forwarding.v", 71, 333); // be
+typeControlKey((HResource) null, "forwarding.v", 'c'); // be
+selectCodeEditor("forwarding.v", 84, 470); // be
+typeControlKey((HResource) null, "forwarding.v", 'v'); // be
+selectCodeEditor("forwarding.v", 72, 367); // be
+typeControlKey((HResource) null, "forwarding.v", 'c'); // be
+selectCodeEditor("forwarding.v", 530, 465); // be
+typeControlKey((HResource) null, "forwarding.v", 'v'); // be
+selectCodeEditor("forwarding.v", 72, 399); // be
+typeControlKey((HResource) null, "forwarding.v", 'c'); // be
+selectCodeEditor("forwarding.v", 979, 467); // be
+typeControlKey((HResource) null, "forwarding.v", 'v'); // be
+selectCodeEditor("forwarding.v", 72, 435); // be
+typeControlKey((HResource) null, "forwarding.v", 'c'); // be
+selectCodeEditor("forwarding.v", 1147, 478); // be
+selectCodeEditor("forwarding.v", 1264, 472); // be
+typeControlKey((HResource) null, "forwarding.v", 'v'); // be
+// Elapsed time: 24 seconds
+selectCodeEditor("forwarding.v", 1259, 466); // be
+selectCodeEditor("forwarding.v", 1261, 466); // be
+selectCodeEditor("forwarding.v", 72, 333); // be
+typeControlKey((HResource) null, "forwarding.v", 'c'); // be
+selectCodeEditor("forwarding.v", 84, 469); // be
+typeControlKey((HResource) null, "forwarding.v", 'v'); // be
+selectCodeEditor("forwarding.v", 72, 401); // be
+typeControlKey((HResource) null, "forwarding.v", 'c'); // be
+selectCodeEditor("forwarding.v", 533, 466); // be
+typeControlKey((HResource) null, "forwarding.v", 'v'); // be
+// Elapsed time: 17 seconds
+selectCodeEditor("forwarding.v", 73, 349); // be
+typeControlKey((HResource) null, "forwarding.v", 'c'); // be
+selectCodeEditor("forwarding.v", 84, 483); // be
+typeControlKey((HResource) null, "forwarding.v", 'v'); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("forwarding.v", 72, 415); // be
+typeControlKey((HResource) null, "forwarding.v", 'c'); // be
+selectCodeEditor("forwarding.v", 531, 485); // be
+typeControlKey((HResource) null, "forwarding.v", 'v'); // be
+// Elapsed time: 47 seconds
+selectCodeEditor("forwarding.v", 723, 309); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("forwarding.v", 601, 272); // be
+selectCodeEditor("forwarding.v", 503, 242); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,614 MB. GUI used memory: 68 MB. Current time: 1/4/23, 8:29:32 PM GMT+02:00
+// Elapsed time: 282 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX (EX.v)]", 14, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX (EX.v)]", 14, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX (EX.v)]", 14, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("EX.v", 232, 439); // be
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v), ADDER_PC_4_IF : adder (adder.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v), ADDER_PC_4_IF : adder (adder.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v), ADDER_PC_4_IF : adder (adder.v)]", 5, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v), ADDER_PC_4_IF : adder (adder.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v), ADDER_PC_4_IF : adder (adder.v)]", 5, false); // D
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX (EX.v)]", 14, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX (EX.v)]", 14, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("EX.v", 138, 430); // be
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adder.v", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "EX.v", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IF.v", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "EX.v", 4); // m
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adder.v", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "EX.v", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "forwarding.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IF.v", 6); // m
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adder.v", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IF.v", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "adder.v", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "EX.v", 4); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 34 seconds
+selectCodeEditor("EX.v", 109, 416); // be
+// Elapsed time: 13 seconds
+selectCodeEditor("EX.v", 441, 453); // be
+// Elapsed time: 55 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v)]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v), MUX_PC : mux2_1 (mux2_1.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v), MUX_PC : mux2_1 (mux2_1.v)]", 6, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 90 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // D
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// Elapsed time: 48 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "mux_3_1"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 58 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_IF_ID.srcs/sources_1/new/mux_3_1.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_IF_ID.srcs/sources_1/new/mux_3_1.v}} 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_3_1 (mux_3_1.v)]", 17, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_3_1 (mux_3_1.v)]", 17, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 45 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX (EX.v)]", 12, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, EX (EX.v)]", 12, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v), MUX_PC : mux2_1 (mux2_1.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RISC_V (risc_v.v), instruction_fetch : IF (IF.v), MUX_PC : mux2_1 (mux2_1.v)]", 6, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_3_1 (mux_3_1.v)]", 18, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_3_1 (mux_3_1.v)]", 18, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("mux_3_1.v", 108, 409); // be
+selectCodeEditor("mux_3_1.v", 29, 417); // be
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux2_1.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux_3_1.v", 7); // m
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux2_1.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux_3_1.v", 7); // m
+selectCodeEditor("mux_3_1.v", 292, 415); // be
+// Elapsed time: 18 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 120 seconds
+selectCodeEditor("mux_3_1.v", 275, 491); // be
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux2_1.v", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux_3_1.v", 7); // m
+selectCodeEditor("mux_3_1.v", 141, 451); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("mux_3_1.v", 480, 332); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux2_1.v", 2); // m
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux_3_1.v", 7); // m
+selectCodeEditor("mux_3_1.v", 78, 447); // be
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IF.v", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux_3_1.v", 7); // m
+selectCodeEditor("mux_3_1.v", 293, 357); // be
+selectCodeEditor("mux_3_1.v", 298, 346); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 30 seconds
+selectCodeEditor("mux_3_1.v", 528, 315); // be
+selectCodeEditor("mux_3_1.v", 522, 337); // be
+selectCodeEditor("mux_3_1.v", 513, 346); // be
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 20); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 20); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 20); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 21); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_intermediar (test_intermediar.v)]", 22, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_intermediar (test_intermediar.v)]", 22, true, false, false, false, false, true); // D - Double Click - Node
+selectCodeEditor("test_intermediar.v", 256, 55); // be
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_3_1 (mux_3_1.v)]", 18, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_3_1 (mux_3_1.v)]", 18, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ao
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ao
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_3_1 (mux_3_1.v)]", 18, false, false, false, false, true, false); // D - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_3_1 (mux_3_1.v)]", 18, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_3_1 (mux_3_1.v)]", 18, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("mux_3_1.v", 80, 279); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ar
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ALUcontrol (ALUcontrol.v)]", 15, false); // D

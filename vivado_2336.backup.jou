@@ -1,0 +1,170 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Jan  6 10:57:53 2023
+# Process ID: 2336
+# Current directory: G:/Uni stuff/Uni/Anul 3/CN2/lab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18640 G:\Uni stuff\Uni\Anul 3\CN2\lab3\RISC_V_IF_ID.xpr
+# Log file: G:/Uni stuff/Uni/Anul 3/CN2/lab3/vivado.log
+# Journal file: G:/Uni stuff/Uni/Anul 3/CN2/lab3\vivado.jou
+# Running On: DESKTOP-3QSB0TA, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 17050 MB
+#-----------------------------------------------------------
+start_gui
+open_project {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_IF_ID.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+current_wave_config {RISC_V_TB_behav.wcfg}
+add_wave {{/RISC_V_TB/procesor/execute/alu_control/ALUinput}} 
+relaunch_sim
+current_wave_config {RISC_V_TB_behav.wcfg}
+add_wave {{/RISC_V_TB/procesor/ID_EX_REGISTER/func3_out}} 
+current_wave_config {RISC_V_TB_behav.wcfg}
+add_wave {{/RISC_V_TB/procesor/ID_EX_REGISTER/func7_out}} 
+relaunch_sim
+save_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test_intermediar [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source test_intermediar.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source test_intermediar.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source test_intermediar.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source test_intermediar.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source test_intermediar.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RISC_V_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+current_wave_config {RISC_V_TB_behav.wcfg}
+add_wave {{/RISC_V_TB/procesor/execute/MUX_REG_DATA_1/out}} 
+current_wave_config {RISC_V_TB_behav.wcfg}
+add_wave {{/RISC_V_TB/procesor/execute/MUX_ALU_SOURCE_2/out}} 
+relaunch_sim
+save_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+current_wave_config {RISC_V_TB_behav.wcfg}
+add_wave {{/RISC_V_TB/procesor/forwarding_unit/forwardB}} 
+relaunch_sim
+current_wave_config {RISC_V_TB_behav.wcfg}
+add_wave {{/RISC_V_TB/procesor/ID_EX_REGISTER/ALUSrc}} 
+relaunch_sim
+relaunch_sim
+export_ip_user_files -of_objects  [get_files {{G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_IF_ID.srcs/sources_1/new/risc_v_prof.v}}] -no_script -reset -force -quiet
+remove_files  {{G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_IF_ID.srcs/sources_1/new/risc_v_prof.v}}
+file delete -force {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_IF_ID.srcs/sources_1/new/risc_v_prof.v}
+save_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {G:/Uni stuff/Uni/Anul 3/CN2/lab3/RISC_V_TB_behav.wcfg}
+source RISC_V_TB.tcl
+close_sim
